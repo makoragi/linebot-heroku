@@ -1,4 +1,4 @@
 <?php
 require('../vendor/autoload.php');
-echo "Hello World\n";
+echo "Hello ", getenv('VPS_URL'), "\n";
 
